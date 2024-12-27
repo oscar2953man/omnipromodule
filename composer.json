@@ -1,0 +1,22 @@
+{
+    "name": "omnipro/module-quickproductpositioning",
+    "description": "Magento 2 module for quick product positioning.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~7.4|~8.1",
+        "magento/framework": "103.0.*|104.0.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Omnipro\\QuickProductPositioning\\": ""
+        }
+    }
+}
